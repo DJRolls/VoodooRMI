@@ -63,7 +63,7 @@ bool RMISMBus::start(IOService *provider)
     auto data = device_nub->getDeviceProps();
     if (data != nullptr) {
         vps2Control = true;
-        setProperty("GPIO Data", data);
+//        setProperty("GPIO Data", data);g
     }
 
     PMinit();

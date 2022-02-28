@@ -28,7 +28,7 @@ struct mapping_table_entry {
 enum {
     kPS2C_wakeCompleted = iokit_vendor_specific_msg(301),       // PS2 Wakeup completed
 };
-    
+
 class RMISMBus : public RMITransport {
     OSDeclareDefaultStructors(RMISMBus);
     

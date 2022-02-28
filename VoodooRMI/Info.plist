@@ -27,11 +27,11 @@
 			<key>Configuration</key>
 			<dict>
 				<key>DisableWhileTrackpointTimeout </key>
-				<integer>250</integer>
+				<integer>1000</integer>
 				<key>DisableWhileTypingTimeout</key>
-				<integer>250</integer>
+				<integer>1000</integer>
 				<key>FingerMajorMinorDiffMax</key>
-				<integer>10</integer>
+				<integer>2</integer>
 				<key>ForceTouchEmulation</key>
 				<true/>
 				<key>ForceTouchMinPressure</key>
@@ -43,7 +43,7 @@
 				<key>PalmRejectionTrackpointHeight</key>
 				<integer>20</integer>
 				<key>PalmRejectionWidth</key>
-				<integer>10</integer>
+				<integer>30</integer>
 				<key>TrackpointDeadzone</key>
 				<integer>1</integer>
 				<key>TrackpointMultiplier</key>

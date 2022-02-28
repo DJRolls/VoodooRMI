@@ -13,7 +13,7 @@
 #include "F03.hpp"
 
 OSDefineMetaClassAndStructors(F03, RMITrackpointFunction)
-#define super RMIFunction
+#define super RMITrackpointFunction
 
 bool F03::attach(IOService *provider)
 {

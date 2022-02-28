@@ -41,7 +41,6 @@ enum {
     kHandleRMIResume = iokit_vendor_specific_msg(2049),
     kHandleRMITrackpoint = iokit_vendor_specific_msg(2050),
     kHandleRMITrackpointButton = iokit_vendor_specific_msg(2051),
-    kHandleRMIInputReport = iokit_vendor_specific_msg(2052),
     kHandleRMIConfig = iokit_vendor_specific_msg(2053),
 };
 
